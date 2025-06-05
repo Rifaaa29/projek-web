@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>Spons Eceng Gondok</title>
+     <style>
+         .title {
+  text-align: center;
+  margin-top: 40px;
+}
+
+ html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px;
+}
+h1:first-child {
+  margin-top: 0;
+}
+h1 {
+  text-align: center;
+}
+
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f2d88f;
+    color: #333;
+}
+
+
+.anggota-section h1 {
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.anggota-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.anggota-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 220px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.anggota-card:hover {
+  transform: translateY(-5px);
+}
+
+.anggota-card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 3px solid #00796b;
+}
+
+.anggota-card h2 {
+  font-size: 1.2em;
+  color: #00796b;
+  margin: 10px 0 5px;
+}
+
+.anggota-card p {
+  color: #555;
+  font-size: 0.95em;
+}
+nav{
+    position: fixed;
+     top: 0;
+     left: 0;
+    width: 100%;
+    margin:0px;
+    padding: 15px 20px;
+    background-color: #4b352a;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 1000;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+nav a {
+    color: #FFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+.container {
+    max-width: 720px;
+    margin: auto;
+    background: #fedcd2;
+    padding: 30px 40px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    line-height: 1.6 ;
+} 
+
+.foto img {
+    height: 280px;
+    width: 215px;
+    margin-left: 15px;
+    display: flexbox;
+}
+.photo {
+    height: 250px;
+    width: 200px;
+    margin-left: -18px;
+display: flex;
+}
+video{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+     </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#ttg">Home</a></li>
+                <li><a href="#produk">Product</a></li>
+                <li><a href="#proses">Process</a></li>
+                <li><a href="#photo">Photo</a></li>
+            </ul>
+        </nav>
+    </header>
+      
+    <div class="semua">
+        <!-- buat beranda -->
+        <section id="ttg">
+    <div class="container">
+        <h1>Spons dari Eceng Gondok</h1>
+    <h2>Nama Kelompok: Bika Ambon</h2>
+    <h3>Kelas: XI 3</h3>
+    
+        <section class="anggota-section">
+    <h1>Daftar Anggota Tim</h1>
+    <div class="anggota-container">
+      
+      <div class="anggota-card">
+        <img src="Rif.jpg" alt="Foto Anggota 1">
+        <h2>Nathaniela Syarifa H.N.</h2>
+        <p></p>
+      </div>
+
+        <div class="anggota-card">
+        <img src="Alyaa.png" alt="Foto Anggota 2">
+        <h2>Nuur Alya M.</h2>
+        <p></p>
+      </div>
+
+      <div class="anggota-card">
+        <img src="Faira.jpg" alt="Foto Anggota 3">
+        <h2>Faira Nafisah R.P.</h2>
+        <p></p>
+      </div>
+
+      <div class="anggota-card">
+        <img src="Zilaa.png" alt="Foto Anggota 4">
+        <h2>Nazila Nurgiana</h2>
+        <p></p>
+      </div>
+
+      <div class="anggota-card">
+        <img src="Auraaa.jpg" alt="Foto Anggota 5">
+        <h2>Aura Kaylila R.</h2>
+        <p>Ketua Kelompok</p>
+      </div>
+      </section>
+     
+    <!-- buat produk -->
+     <section id="produk">
+        <div class="jelasin">
+    <h2>Deskripsi Produk</h2>
+    <p>Produk spons dari eceng gondok berbasis self-cleaning adalah solusi pembersihan efektif dan ramah lingkungan yang dirancang untuk siapa saja yang peduli dengan kebersihan dan kesehatan. Spons ini terbuat dari eceng gondok yang diproses dengan teknologi self-cleaning, memungkinkan membersihkan diri sendiri dan mengurangi pertumbuhan bakteri dan jamur. Dapat digunakan di berbagai tempat, seperti rumah, kantor, atau fasilitas umum, terutama di area yang memerlukan kebersihan tinggi. Spons ini bekerja dengan efektif membersihkan permukaan dan mengurangi penggunaan bahan kimia berbahaya, sehingga menjadi pilihan tepat bagi mereka yang ingin memiliki produk pembersih yang efektif dan ramah lingkungan.</p>
+    <div class="foto">
+    <img src="3_20250605_093712_0000.png"class="foto1">
+    <img src="4_20250605_093712_0001.png" alt="foto 2" class="foto2">
+    <img src="5_20250605_093712_0002.png" alt="foto 3" class="foto3">
+    </div>
+   <h2>Alat dan Bahan</h2>
+            <ul>
+  <li>Serabut kelapa</li>
+                <li>Tepung tapioka</li>
+                <li>Daun sirih</li>
+                <li>Jeruk nipis</li>
+                <li>Benang goni</li>
+                <li>Jarum</li>
+                <li>Serbuk besi</li>
+                <li>Magnet neodymium</li>
+                <li>Kayu jati Belanda</li>
+                <li>Blender</li>
+            </ul>
+             <h2>Keunggulan</h2>
+      <ul>
+                <li>Ramah lingkungan</li>
+                <li>Mampu menyerap air</li>
+                <li>Estetika alami</li>
+            </ul>
+             <h2>Kekurangan</h2>
+            <ul>
+                <li>Keterbatasan bahan</li>
+                <li>Keterbatasan kekuatan</li>
+                <li>Perlu perawatan khusus</li>
+                <li>Sensitif terhadap air</li>
+            </ul>
+            </div> 
+     </section>
+
+            <!-- buat proses -->
+             <section id="proses">
+                <div class="proses">
+                    <h2>Langkah-langkah</h2>
+ <h4>Fase 1</h4>
+            <ol>
+                <li>Pemilihan eceng gondok & serabut kelapa</li>
+                <li>Spons memiliki dua sisi yang halus dan kasar ;<u> bagian yang halus </u> campuran eceng gondok, lem perekat, serabut kelapa, serbuk kelapa 
+                 ; <u>bagian kasarnya </u>menggunakan serabut kelapa padat
+                </li>
+                <li>Menggunakan batang eceng gondok, lalu dipotong & di sterilisasi menggunakan rendaman air hangat dan jeruk nipis</li>
+            </ol>
+<h4>Fase 2</h4>
+            <ol>
+                  <li>Pengeringan batang eceng gondok</li>
+                  <li>Masukkan tebu dan batang eceng gondok kering ke dalam blender sampai halus</li>
+                  <li>Kemudian ditiriskan lalu di peras sampai kering</li>
+                  <li>Setelah itu, masukkan serbuk besi dan serabut kelapa lalu dicampur ke adonan yang telah dihaluskan </li> 
+                  <li>Lalu tambahkan lem</li>
+                  <li>Selanjutnya dicetak dan dijemur </li>
+            </ol>
+<h4>Fase 3</h4>
+            <ol>
+                <li>Pengolesan lem perekat di bagian atas spons halus</li>
+                <li>Kemudian tambahkan serabut kelapa padat</li>
+                <li>Lalu dijemur</li>
+                <li>Pembuatan alas dengan melubangi kayu jati dan tambahkan magnet neodymium</li>
+            </ol>
+            </div>
+             </section>
+
+            <!-- buat foto -->
+              <h2>Dokumentasi</h2>
+             <section id="photo">
+                <div class="photo">
+                <img src="Microwave.jpg" alt="Foto microwave"/>
+                <img src="Spons basah.jpg" alt="Foto spons"/>
+                <img src="Spons Kering.jpg" alt="Foto microwave"/>
+                </div>
+            <div class="video-container">
+                <h2>Video</h2>
+                <video controls>
+                    <source src="Zila.mp4"/>
+    
+                </video>
+                <video controls>
+                    <source src="Auraa.mp4"/>
+                </video>
+            </div>
+
+             </section>
+             <footer>
+        <p>&copy; Produk Spons Eceng Gondok Self-Cleaning</p>
+    </footer>
+    </div>
+</body>
+</html>
